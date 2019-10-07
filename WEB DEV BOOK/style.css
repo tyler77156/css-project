@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.h2 {
+  font-size: 30px;
+  border-bottom: 2px solid skyblue;
+  background-size: 100px 100px;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nerds {
+  background: linear-gradient(rgba(255, 192, 203, 0.5), rgba(255, 255, 0, 0.76)),
+    url(/images/pexels-photo-2156656.jpeg) no-repeat;
+  background: cover;
+  border-radius: 4px;
+  padding: 5px;
+  width: 115px;
+  height: 140px;
+  top: 0;
+  left: 0;
+}
+.border {
+  width: 200px;
+  height: 100px;
+}
+.para {
+  border: 2px solid black;
+  box-sizing: border-box;
+  float: center;
+  margin-left: 350px;
+  margin-right: 300px;
+}
+h3 {
+  text-align: center;
+}
+.nerds {
+  float: left;
+  display: inline;
+}
+ul {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: 1px solid white;
+}
+li a:hover {
+  background-color: skyblue;
+}
+.home a.home {
+  background-color: skyblue;
+}
+.contact a.contact {
+  background-color: skyblue;
+}
+.about a.about {
+  background-color: skyblue;
+}
+.faq a.faq {
+  background-color: skyblue;
+}
+img {
+  float: left;
+  padding: 0 15px;
+  width: 250px;
+  height: 300px;
+}
+.text {
+  text-indent: 50px;
+  margin-top: 150px;
+  border-top: 1px solid black;
+}
+h4 {
+  position: absolute;
+
+  margin-top: 125px;
+}
+.links {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.contacthead {
+  text-align: center;
+  overflow: hidden;
+  margin-right: 100px;
+}
+.info {
+  display: inline-block;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
